@@ -1,0 +1,15 @@
+# Calibration results details:
+# Bag: 2018-12-13-12-31-33-IMU_Intrinsics.mat
+# Details: ~4 hour bag of IMU sitting on a table, no disturbances. Not on robot.
+# Data Processed: 2018 12 14
+
+#Accelerometers
+accelerometer_noise_density: 2.65549935   #Noise density (continuous-time)
+accelerometer_random_walk:   0.01865180   #Bias random walk
+
+#Gyroscopes
+gyroscope_noise_density:     1.11156208   #Noise density (continuous-time)
+gyroscope_random_walk:       0.00469916   #Bias random walk
+
+rostopic:                    /piksi/imu_converted  #the IMU ROS topic
+update_rate:                 50.0       #Hz (for discretization of the values above)
